@@ -17,7 +17,8 @@ def generate_response(topic):
     llm = OpenAI(openai_api_key=openai_api_key)
     template = """
     As experienced startup and venture capital writer, 
-    generate a 400-word blog post about {topic}
+    generate a 400-word blog post about {topic},
+    always you write in spanish language
     
     Your response should be in this format:
     First, print the blog post.
